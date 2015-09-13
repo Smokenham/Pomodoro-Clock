@@ -1,0 +1,131 @@
+body{
+	  background:black !important;
+	  color:#fff !important;
+		font-family: 'Cutive Mono'!important ;
+}
+
+.btn{
+	outline:none !important;
+}
+
+.logo{
+	position:absolute;
+	display:block;
+	background: url(Images/dh.png) no-repeat;
+     top:15px;
+	left:15px;
+	width:75px;
+	height:100px;
+    background-size:cover;
+	
+}
+
+.logo:hover{
+	  background-position: 0 -98px;
+}
+
+header{
+padding-top:50px;
+}
+
+h1{
+font-family: 'Josefin Sans' !important;
+	color:#fff !important;
+	font-size:4em !important;	
+	font-weight:bold !important;
+	text-transform:uppercase;
+}
+
+
+h3{
+font-family: 'Josefin Sans' !important;
+font-size:1.5em !important;
+text-transform:uppercase;
+}
+
+.mainSection{
+margin-top:20px;
+
+border-radius:30px;
+	border: #fff solid 4px !important;
+
+	font-size:1.6em;
+}
+
+
+.btn  {
+background: #000 !important	;
+}
+
+
+
+.btn:focus{
+	color:#fff!important; 
+}
+
+.btn:hover{
+	color:#00c0ff !important;
+}
+
+
+
+.active-session{
+	
+}
+
+.active-session-output{
+	margin:20px auto;
+	padding-top:100px !important;
+	
+	width:300px;
+	height:300px;
+	border: 3px white solid;
+	border-radius:50%;
+	padding-top:30px;	
+	overflow:hidden;
+	cursor: pointer
+	
+}
+
+
+
+
+
+@media only screen and (max-width : 480px){
+	h1{
+	font-size:2.7em !important;	
+}
+h2{
+	font-size:1.1em !important;
+}
+h3{
+font-size:1em !important;	
+}
+
+.logo{
+	 -ms-transform: scale(0.5,0.5); /* IE 9 */
+    -webkit-transform: scale(0.5,0.5); /* Safari */
+    transform: scale(0.5,0.5);
+}
+
+
+.active-session-output{
+	margin:20px auto;
+	padding-top:35px !important;
+	
+	width:150px;
+	height:150px;
+	border: 3px white solid;
+	border-radius:50%;
+	padding-top:30px;	
+	overflow:hidden;
+	cursor: pointer
+}
+
+
+
+
+
+}
+
+

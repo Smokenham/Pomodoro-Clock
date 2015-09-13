@@ -1,0 +1,72 @@
+<!DOCTYPE html> 
+<html xmlns="http://www.w3.org/1999/xhtml">
+   
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+   <link href='https://fonts.googleapis.com/css?family=Cutive+Mono' rel='stylesheet' type='text/css'>
+      <link href='https://fonts.googleapis.com/css?family=Josefin+Sans:400,700' rel='stylesheet' type='text/css'>
+        <meta name="viewport" content="width=device-width">
+        <meta name="viewport" content="initial-scale=1"> 
+        <link rel="stylesheet" href="style.css" type="text/css" media="screen">
+        <link rel="stylesheet" href="bootstrap.min.css" type="text/css" media="screen">     
+          <link rel="stylesheet" href="font-awesome-4.4.0/css/font-awesome.min.css" type="text/css" media="screen">  
+        
+        <script type="text/javascript" src="jquery-2.1.4.min.js"></script> 
+   
+        <script type="text/javascript" src="script.js"></script>
+        <title>Pomodoro Clock</title>
+    </head>
+    
+    <body> 
+ 		
+ 		<a href="http://dansharrington.com"> <div class="logo"></div></a>
+ 		
+ 		<div class= "col-xs-8 col-xs-offset-2">
+ 			<header>
+ 				<h1 class="text-center"> Pomodoro Clock</h1>
+ 			</header>
+ 		</div>
+ 		
+ 		<div  id="mainSec" class="mainSection col-xs-10 col-xs-offset-1 col-md-6 col-md-offset-3">
+ 			
+ 			
+ 			<div class="break-length col-xs-6 text-center">
+ 			<h2 class="text-center">Break Length</h2>
+ 				<button class="btn " name="plusButtonBreak"><i class="fa fa-3x fa-plus-square-o"></i></button>
+ 		
+ 			<div id="breakOutput" class="length-output"></div>
+ 				<button class="btn " name="minusButtonBreak"><i class="fa fa-3x fa-minus-square-o"></i></button>
+ 		
+ 			</div>
+ 			
+ 			
+ 			<div class="session-length col-xs-6 text-center">
+ 			<h2 class="text-center">Session Length</h2>
+ 					<button class="btn " name="plusButtonSession"><i class="fa fa-3x fa-plus-square-o"></i></button> 
+ 		
+ 			<div id="sessionOutput" class="length-output"></div>
+ 				<button class="btn " name="minusButtonSession"><i class="fa fa-3x fa-minus-square-o"></i></button>
+ 					
+ 			</div>
+ 			
+ 			
+ 			<div class="active-session col-xs-8 col-xs-offset-2">
+ 		
+ 				
+ 				<div id="activeSessionOutput" class="active-session-output text-center">
+ 				
+ 				</div>
+ 				
+ 				
+ 			</div>
+ 		
+ 			
+ 			
+ 			
+ 			
+ 			
+ 			
+ 		</div>
+ 		
+    </body>
+</html>
