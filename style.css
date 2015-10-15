@@ -4,6 +4,13 @@ body{
 		font-family: 'Cutive Mono'!important ;
 }
 
+::selection {
+  background: rgb(0,192,255); /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: rgb(0,192,255); /* Gecko Browsers */
+}
+
 .btn{
 	outline:none !important;
 }
@@ -11,7 +18,7 @@ body{
 .logo{
 	position:absolute;
 	display:block;
-	background: url(Images/dh.png) no-repeat;
+	background: url(images/dh.png) no-repeat;
      top:15px;
 	left:15px;
 	width:75px;
